@@ -16,11 +16,7 @@ define('APP_DEBUG',true);
 define('APP_PATH','./Apps/');
 /* 扩展目录*/
 define('EXTEND_PATH', APP_PATH.'Library/');
-//进入安装目录
-if(is_dir("Install") && !file_exists("Install/install.ok")){
-	header("Location:Install/index.php");
-	exit();
-}
+
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 

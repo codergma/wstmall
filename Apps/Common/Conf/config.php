@@ -9,7 +9,7 @@
 	    'DB_NAME'=>'wstmall',
         'DB_TYPE'=>'mysql',
         'DB_USER'=>'root',
-	    'DB_PWD'=>'123456',
+	    'DB_PWD'=>'mysql2015',
 	    'DB_PREFIX'=>'wst_',
 	    'DEFAULT_C_LAYER' =>  'Action',
 	    'DEFAULT_CITY' => '440100',
